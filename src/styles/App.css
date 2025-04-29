@@ -1,0 +1,44 @@
+body {
+  
+  background-color: black;
+  background-size: cover;         /* covers entire viewport */
+  background-repeat: no-repeat;
+  background-position: center;    /* centers image */
+  background-attachment: fixed;   /* stays still when scrolling */
+}
+
+.App {
+  text-align: center;
+}
+
+.api-container-wrapper {
+  margin-top: 10px;
+}
+
+/* For the camera section in Learn Detail */
+.camera-section, .ml-output-section {
+  margin: 20px 0;
+}
+
+/* For Learn Detail navigation buttons */
+.learn-detail-buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 30px auto 0;
+}
+
+/* Adjust nav-button style if needed */
+.nav-button {
+  padding: 10px 20px;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #000000;
+}
